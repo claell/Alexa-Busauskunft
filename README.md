@@ -1,5 +1,5 @@
 # Alexa-Busauskunft
-Alexa Skill für Busauskunft
+Alexa Skill für Busauskunft  
 Geschrieben für Nahverkehr im Raum Aachen (ASEAG), kann aber leicht für andere Städte angepasst werden.
 
 Der Skill benutzt die ASEAG Unified realtime api (URA) (Base URL:  http://ivu.aseag.de/interfaces/ura/instant_V1)
@@ -8,7 +8,7 @@ Siehe z.B http://content.tfl.gov.uk/tfl-live-bus-river-bus-arrivals-api-document
 ## Requires
 Der Skill benutzt die folgenden "externen" Pakete:
 -  "requests" (zur Vereinfachung der Anfragen an die ASEAG API) Siehe http://docs.python-requests.org/en/master/
--  "myask"    (ein Paar kleine Helferchen, die ich für meine Alexa Skills geschrieben habe) Siehe https://github.com/acmurmeltier69/myask.git
+-  "myask"    (ein Paar kleine Helferchen, die ich für meine Alexa Skills geschrieben habe) Siehe https://github.com/acmurmeltier69/myask.git  
 Diese Pakete müssen als Unterverzeichnisse eingebunden werden, wenn der Handler als aws Lambda hochgeladen wird.
 
 
